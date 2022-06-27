@@ -1,0 +1,5 @@
+[jenkins server]
+ jenkins server ansible_host=192.168.102.4 ansible_user=ubuntu
+ 
+[all:vars]
+ ansible_python_interpreter=/usr/bin/python3
