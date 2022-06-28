@@ -3,7 +3,6 @@
 ---
 - hosts: CIserver
   become: yes
-  become_user: ubuntu
   
   tasks:
     - name: ensure the jenkins apt repository gpg key is installed
