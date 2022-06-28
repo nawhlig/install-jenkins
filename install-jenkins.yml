@@ -1,5 +1,5 @@
 #Jenkins install
-
+#root user only
 ---
 - hosts: CIserver
   become: yes
